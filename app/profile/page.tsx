@@ -51,7 +51,8 @@ export default function ProfilePage() {
             </div>
 
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed italic">
-             "If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology."
+              "Saya bukan ahli, hanya seseorang yang penasaran dan nggak pernah berhenti nyari tahu. Setiap baris kode
+              dan artikel di sini adalah bukti kalau belajar itu nggak harus nunggu jago"
             </p>
           </div>
 
@@ -64,24 +65,22 @@ export default function ProfilePage() {
 
               <div className="space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed">
                 <p className="text-lg">
-                 Saya adalah seorang pelajar yang memiliki ketertarikan dan hobi yang besar di bidang IT.
-                Sejak duduk di bangku SMK, saya sudah mulai mendalami dunia teknologi, khususnya melalui jurusan Teknik Komputer dan Jaringan (TKJ) yang saya ambil. 
-                 Dari sana, saya mulai mengenal dunia jaringan komputer, perangkat keras, dan berbagai dasar teknis yang memperkuat minat saya untuk terus belajar dan berkembang di bidang ini. 
-                 Setelah lulus dari SMK, saya memutuskan untuk melanjutkan pendidikan di perguruan tinggi dengan mengambil jurusan Informatika di Universitas Pelita Bangsa agar saya bisa lebih memahami sisi teoritis dan pengembangan teknologi secara menyeluruh.
+                  Hidup saya dimulai dari rasa penasaran yang sederhana. Sejak kecil, saya selalu bertanya-tanya
+                  bagaimana sesuatu bekerja - dari mainan yang bisa bergerak hingga komputer yang bisa menampilkan
+                  gambar. Rasa penasaran inilah yang membawa saya ke dunia teknologi.
                 </p>
 
                 <p>
-                Selain dari pendidikan formal, saya juga aktif belajar secara otodidak di rumah.
-                Saya sering mencari informasi sendiri, membaca berbagai referensi, mengikuti tutorial, serta mencoba langsung berbagai hal yang saya temukan.
-                Saya senang mencari tahu sesuatu yang baru, mempelajarinya, dan jika memungkinkan, menerapkannya dalam bentuk proyek kecil atau eksperimen pribadi.
-                Bagi saya, belajar teknologi itu tidak pernah membosankan karena selalu ada hal baru yang bisa digali.
+                  Perjalanan belajar saya tidak selalu mulus. Ada kalanya saya merasa stuck, frustrasi dengan kode yang
+                  tidak berjalan, atau merasa tertinggal dari teman-teman. Tapi justru dari momen-momen sulit itulah
+                  saya belajar bahwa proses belajar itu tidak linear - kadang naik, kadang turun, tapi yang penting
+                  terus bergerak maju.
                 </p>
 
                 <p>
-                  Website ini saya buat sebagai portofolio digital dan arsip pribadi untuk mencatat perjalanan saya di dunia IT.
-                  Di sini, saya akan menyimpan berbagai proyek, hasil pembelajaran, eksperimen, dan juga tulisan-tulisan saya seputar teknologi.
-                  Harapan saya, website ini tidak hanya menjadi dokumentasi pribadi, tetapi juga bisa dibaca oleh orang lain yang mungkin sedang mencari inspirasi, informasi, atau yang memiliki minat di bidang yang sama.
-                  Dengan membagikan apa yang saya pelajari, saya berharap bisa berkontribusi dan terhubung dengan komunitas yang lebih luas.
+                  Setiap proyek yang saya kerjakan, setiap artikel yang saya tulis, adalah refleksi dari perjalanan
+                  belajar saya. Saya percaya bahwa berbagi pengetahuan, meskipun masih dalam tahap belajar, bisa
+                  membantu orang lain yang mungkin mengalami hal serupa.
                 </p>
 
                 <div className="bg-slate-50 dark:bg-slate-700 rounded-lg p-6 my-8">
@@ -90,6 +89,7 @@ export default function ProfilePage() {
                     <div>
                       <p className="mb-2">🎮 Gaming dan eksplorasi dunia virtual</p>
                       <p className="mb-2">📚 Membaca artikel teknologi dan tutorial</p>
+                      <p className="mb-2">🎵 Mendengarkan musik sambil coding</p>
                       <p>🌱 Belajar hal-hal baru setiap hari</p>
                     </div>
                     <div>
