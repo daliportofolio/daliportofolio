@@ -67,7 +67,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-800 dark:text-slate-100">Email</h3>
-                      <p className="text-slate-600 dark:text-slate-300">[email@anda.com]</p>
+                      <p className="text-slate-600 dark:text-slate-300">dalisyaputra28@gmail.com</p>
                     </div>
                   </div>
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-800 dark:text-slate-100">Telepon</h3>
-                      <p className="text-slate-600 dark:text-slate-300">[+62 xxx-xxxx-xxxx]</p>
+                      <p className="text-slate-600 dark:text-slate-300">085773110842</p>
                     </div>
                   </div>
 
@@ -86,8 +86,8 @@ export default function ContactPage() {
                       <MapPin className="text-purple-600 dark:text-purple-400" size={20} />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-slate-800 dark:text-slate-100">Lokasi</h3>
-                      <p className="text-slate-600 dark:text-slate-300">[Kota, Negara]</p>
+                      <h3 className="font-semibold text-slate-800 dark:text-slate-100">Cikarang</h3>
+                      <p className="text-slate-600 dark:text-slate-300">Bekasi, Indonesia</p>
                     </div>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function ContactPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <a
-                    href="[URL GitHub Anda]"
+                    href="https://github.com/dashboard"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-2 p-4 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
