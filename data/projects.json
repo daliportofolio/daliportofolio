@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "[Nama Proyek 1]",
+    "description": "[Deskripsi singkat proyek pertama Anda]",
+    "longDescription": "[Deskripsi lengkap proyek pertama - jelaskan latar belakang, tujuan, dan proses pembuatan]",
+    "image": "/placeholder.svg?height=300&width=400",
+    "category": "Web Development",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Python", "Next.js"],
+    "date": "2024",
+    "slug": "proyek-1",
+    "demoUrl": "[URL Demo Proyek]",
+    "githubUrl": "[URL GitHub Repository]",
+    "features": [
+      "Responsive design untuk semua device",
+      "User authentication dan authorization",
+      "Database integration",
+      "API endpoints yang lengkap"
+    ],
+    "status": "Selesai",
+    "duration": "3 bulan",
+    "team": "Personal"
+  },
+  {
+    "id": "2",
+    "title": "[Nama Proyek 2]",
+    "description": "[Deskripsi singkat proyek kedua Anda]",
+    "longDescription": "[Deskripsi lengkap proyek kedua - ceritakan tantangan dan solusi yang ditemukan]",
+    "image": "/placeholder.svg?height=300&width=400",
+    "category": "Mobile App",
+    "technologies": ["React Native", "JavaScript", "Python", "Firebase"],
+    "date": "2024",
+    "slug": "proyek-2",
+    "demoUrl": "[URL Demo Proyek]",
+    "githubUrl": "[URL GitHub Repository]",
+    "features": [
+      "Cross-platform mobile app",
+      "Real-time notifications",
+      "Offline functionality",
+      "Cloud synchronization"
+    ],
+    "status": "Dalam Pengembangan",
+    "duration": "4 bulan",
+    "team": "Personal"
+  },
+  {
+    "id": "3",
+    "title": "[Nama Proyek 3]",
+    "description": "[Deskripsi singkat proyek ketiga Anda]",
+    "longDescription": "[Deskripsi lengkap proyek ketiga - fokus pada aspek teknis dan pembelajaran]",
+    "image": "/placeholder.svg?height=300&width=400",
+    "category": "Data Science",
+    "technologies": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
+    "date": "2023",
+    "slug": "proyek-3",
+    "githubUrl": "[URL GitHub Repository]",
+    "features": [
+      "Data visualization dashboard",
+      "Machine learning models",
+      "Automated reporting",
+      "Interactive charts"
+    ],
+    "status": "Selesai",
+    "duration": "2 bulan",
+    "team": "Personal"
+  }
+]

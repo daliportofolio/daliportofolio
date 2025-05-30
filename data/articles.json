@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "[Judul Artikel 1]",
+    "excerpt": "[Ringkasan artikel pertama Anda - 2-3 kalimat yang menarik pembaca untuk membaca lebih lanjut]",
+    "category": "Tutorial",
+    "tags": ["JavaScript", "Web Development", "Tutorial", "Beginner"],
+    "date": "15 Januari 2024",
+    "readTime": 5,
+    "slug": "artikel-1"
+  },
+  {
+    "id": "2",
+    "title": "[Judul Artikel 2]",
+    "excerpt": "[Ringkasan artikel kedua Anda - ceritakan tentang pengalaman atau pembelajaran yang berharga]",
+    "category": "Pengalaman",
+    "tags": ["Python", "Data Science", "Learning", "Career"],
+    "date": "10 Januari 2024",
+    "readTime": 8,
+    "slug": "artikel-2"
+  },
+  {
+    "id": "3",
+    "title": "[Judul Artikel 3]",
+    "excerpt": "[Ringkasan artikel ketiga Anda - bagikan tips atau insight menarik untuk developer lain]",
+    "category": "Tips",
+    "tags": ["Programming", "Best Practices", "Tips", "Productivity"],
+    "date": "5 Januari 2024",
+    "readTime": 6,
+    "slug": "artikel-3"
+  },
+  {
+    "id": "4",
+    "title": "[Judul Artikel 4]",
+    "excerpt": "[Ringkasan artikel keempat - diskusi tentang teknologi terbaru atau trend industri]",
+    "category": "Teknologi",
+    "tags": ["Technology", "Innovation", "Future", "AI"],
+    "date": "1 Januari 2024",
+    "readTime": 10,
+    "slug": "artikel-4"
+  }
+]
