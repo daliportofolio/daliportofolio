@@ -136,10 +136,10 @@ export default async function ArticleDetailPage({ params }: ArticleDetailPagePro
                   Baca Artikel Lain
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/projects"
                   className="border border-slate-300 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 px-6 py-2 rounded-lg transition-colors"
                 >
-                  Hubungi Saya
+                  Lihat Proyek Saya
                 </Link>
               </div>
 
