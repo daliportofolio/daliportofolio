@@ -78,10 +78,10 @@ const sampleProjects: Project[] = [
 const sampleArticles: Article[] = [
   {
     id: "1",
-    title: "[Judul Artikel 1]",
-    excerpt: "[Ringkasan artikel pertama Anda - 2-3 kalimat yang menarik pembaca]",
+    title: "Bukan Hacker, Tapi Kita: Bahaya Human Error di Dunia Digital",
+    excerpt: "Teknologi makin canggih, tapi apa gunanya kalau manusianya masih ceroboh? Yuk bahas kenapa 'human error' bisa lebih berbahaya dari virus, dan gimana kita bisa mencegahnya… mulai sekarang.",
     category: "Tutorial",
-    date: "15 Januari 2024",
+    date: "28 Mei 2024",
     readTime: 5,
     slug: "artikel-1",
     // Optional: add case studies and references
