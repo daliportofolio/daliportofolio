@@ -81,7 +81,7 @@ const sampleArticles: Article[] = [
     title: "Bukan Hacker, Tapi Kita: Bahaya Human Error di Dunia Digital",
     excerpt: "Teknologi makin canggih, tapi apa gunanya kalau manusianya masih ceroboh? Yuk bahas kenapa 'human error' bisa lebih berbahaya dari virus, dan gimana kita bisa mencegahnya… mulai sekarang.",
     category: "Cerita dari Balik Layar Teknologi",
-    date: "28 Mei 2024",
+    date: "28 Mei 2025",
     readTime: 5,
     slug: "artikel-1",
     // Optional: add case studies and references
