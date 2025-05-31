@@ -107,7 +107,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailPagePro
                 </p>
 
                 <p>
-                  Masalahnya, banyak dari kita belum sadar bahwa kesalahan kecil—misalnya lupa logout akun, salah kirim email, atau asal klik link—bisa jadi celah besar buat kebocoran data.
+                  Masalahnya, banyak dari kita belum sadar bahwa kesalahan kecil misalnya lupa logout akun, salah kirim email, atau asal klik link bisa jadi celah besar buat kebocoran data.
                   Bahkan perusahaan dengan sistem keamanan canggih pun tetap rentan kalau ada satu orang saja yang lengah.
                 </p>
 
