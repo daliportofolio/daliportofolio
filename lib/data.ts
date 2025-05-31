@@ -80,7 +80,7 @@ const sampleArticles: Article[] = [
     id: "1",
     title: "Bukan Hacker, Tapi Kita: Bahaya Human Error di Dunia Digital",
     excerpt: "Teknologi makin canggih, tapi apa gunanya kalau manusianya masih ceroboh? Yuk bahas kenapa 'human error' bisa lebih berbahaya dari virus, dan gimana kita bisa mencegahnya… mulai sekarang.",
-    category: "Tutorial",
+    category: "Cerita dari Balik Layar Teknologi",
     date: "28 Mei 2024",
     readTime: 5,
     slug: "artikel-1",
@@ -102,7 +102,7 @@ const sampleArticles: Article[] = [
     },
 
     {
-      title: "Strauss Borrelli PLLC. (2025, 5 Mei). Toyota Financial Services Data Breach Investigation. Strauss Borrelli PLLC.",
+      title: "Reuters. (2025, May 21). M&S says cyber attack was result of human error, declines to comment on ransom. Reuters. ",
       url: "https://straussborrelli.com/2025/05/05/toyota-financial-services-data-breach-investigation/"
     }
     
