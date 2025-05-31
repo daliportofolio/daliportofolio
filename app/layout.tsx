@@ -12,34 +12,34 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Portfolio Pribadi | [Nama Anda]",
-    template: "%s | [Nama Anda]",
+    default: "Portfolio Pribadi | Dali",
+    template: "%s | Dali",
   },
   description:
-    "Portfolio pribadi [Nama Anda] - Web Developer, Software Engineer. Lihat proyek, artikel, dan pengalaman saya dalam pengembangan software.",
+    "Portfolio pribadi Dali - Web Developer, Software Engineer. Lihat proyek, artikel, dan pengalaman saya dalam pengembangan software.",
   keywords: ["portfolio", "web developer", "software engineer", "javascript", "python", "react", "next.js"],
-  authors: [{ name: "[Nama Anda]" }],
-  creator: "[Nama Anda]",
+  authors: [{ name: "Dali" }],
+  creator: "Dali",
   openGraph: {
     type: "website",
     locale: "id_ID",
     url: "[URL Website Anda]",
-    title: "Portfolio Pribadi | [Nama Anda]",
-    description: "Portfolio pribadi [Nama Anda] - Web Developer, Software Engineer",
-    siteName: "Portfolio [Nama Anda]",
+    title: "Portfolio Pribadi | Dali",
+    description: "Portfolio pribadi Dali - Web Developer, Software Engineer",
+    siteName: "Portfolio Dali",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Portfolio [Nama Anda]",
+        alt: "Portfolio Dali",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio Pribadi | [Nama Anda]",
-    description: "Portfolio pribadi [Nama Anda] - Web Developer, Software Engineer",
+    title: "Portfolio Pribadi | Dali",
+    description: "Portfolio pribadi Dali - Web Developer, Software Engineer",
     images: ["/og-image.jpg"],
     creator: "@[twitter_username]",
   },

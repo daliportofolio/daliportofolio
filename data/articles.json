@@ -1,20 +1,42 @@
 [
   {
     "id": "1",
-    "title": "[Judul Artikel 1]",
-    "excerpt": "[Ringkasan artikel pertama Anda - 2-3 kalimat yang menarik pembaca untuk membaca lebih lanjut]",
-    "category": "Tutorial",
-    "tags": ["JavaScript", "Web Development", "Tutorial", "Beginner"],
-    "date": "15 Januari 2024",
+    "title": "Bukan Hacker, Tapi Kita: Bahaya Human Error di Dunia Digital",
+    "excerpt": "Teknologi makin canggih, tapi apa gunanya kalau manusianya masih ceroboh? Yuk bahas kenapa 'human error' bisa lebih berbahaya dari virus, dan gimana kita bisa mencegahnya… mulai sekarang.",
+    "category": "Cerita dari Balik Layar Teknologi",
+    "date": "128 Mei 2024",
     "readTime": 5,
-    "slug": "artikel-1"
+    "slug": "artikel-1",
+    "caseStudyLinks": [
+      {
+        "title": "Jiji. (2024, August 6). Kadokawa confirms data leak of 254,000 people due to cyberattack. The Japan Times. ",
+        "url": "https://www.japantimes.co.jp/business/2024/08/06/companies/kadokawa-cyberattack-data-leak/The Japan Times",
+
+        "title": "Fudo Security. (2025, January 2). 10 Lessons from 2024 Big Data Breaches. Fudo Security Blog. ",
+        "url": "https://fudosecurity.com/blog/2025/01/02/10-lessons-from-2024-big-data-breaches/",
+
+        "title": "Gatlan, S. (2025, May 29). Data broker LexisNexis discloses data breach affecting 364,000 people. BleepingComputer. ",
+        "url": "https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/BleepingComputer",
+
+        "title": "Reuters. (2025, May 21). M&S says cyber attack was result of human error, declines to comment on ransom. Reuters. ",
+        "url": "https://www.reuters.com/business/retail-consumer/ms-says-cyber-attack-was-result-human-error-declines-comment-ransom-2025-05-21/Reuters",
+        
+        "title": "HIPAA Journal. (2025, May 15). Texas Health and Human Services Commission Affected by Insider Breach. HIPAA Journal. ",
+        "url": "https://www.hipaajournal.com/texas-hhsc-insider-breach-maximus/HIPAA Journal"
+      }
+    ],
+    "references": [
+      "Verizon. (2024). Data Breach Investigations Report (DBIR) 2024. ",
+      "Identity Theft Resource Center. (2023). Annual Data Breach Report.",
+      "CNN Indonesia. (2023). Data Penduduk Indonesia Bocor di Forum Hacker.",
+      "Kominfo.go.id. (2023). Edukasi dan Pencegahan Kebocoran Data oleh Kementerian Komunikasi dan Informatika."
+    ]
   },
   {
     "id": "2",
     "title": "[Judul Artikel 2]",
     "excerpt": "[Ringkasan artikel kedua Anda - ceritakan tentang pengalaman atau pembelajaran yang berharga]",
     "category": "Pengalaman",
-    "tags": ["Python", "Data Science", "Learning", "Career"],
     "date": "10 Januari 2024",
     "readTime": 8,
     "slug": "artikel-2"
@@ -24,19 +46,31 @@
     "title": "[Judul Artikel 3]",
     "excerpt": "[Ringkasan artikel ketiga Anda - bagikan tips atau insight menarik untuk developer lain]",
     "category": "Tips",
-    "tags": ["Programming", "Best Practices", "Tips", "Productivity"],
     "date": "5 Januari 2024",
     "readTime": 6,
-    "slug": "artikel-3"
+    "slug": "artikel-3",
+    "references": [
+      "Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin",
+      "The Pragmatic Programmer by David Thomas and Andrew Hunt"
+    ]
   },
   {
     "id": "4",
     "title": "[Judul Artikel 4]",
     "excerpt": "[Ringkasan artikel keempat - diskusi tentang teknologi terbaru atau trend industri]",
     "category": "Teknologi",
-    "tags": ["Technology", "Innovation", "Future", "AI"],
     "date": "1 Januari 2024",
     "readTime": 10,
-    "slug": "artikel-4"
+    "slug": "artikel-4",
+    "caseStudyLinks": [
+      {
+        "title": "Case Study: AI Implementation in Startups",
+        "url": "https://example.com/ai-case-study"
+      },
+      {
+        "title": "Research: Future of Web Development",
+        "url": "https://example.com/web-dev-research"
+      }
+    ]
   }
 ]

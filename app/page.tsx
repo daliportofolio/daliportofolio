@@ -40,7 +40,7 @@ export default function HomePage() {
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-slate-800 dark:text-slate-100 mb-4">Eksplorasi Diri Saya</h1>
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-4">
-            Sebuah catatan digital perjalanan saya menjelajahi dunia IT — tempat saya menyimpan, membagikan, dan merefleksikan pengetahuan dan pemikiran pribadi.
+            Sebuah catatan digital perjalanan saya menjelajahi dunia IT tempat saya menyimpan, membagikan, dan merefleksikan pengetahuan dan pemikiran pribadi.
           </p>
 
           {/* Email Contact */}

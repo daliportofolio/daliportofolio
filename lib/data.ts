@@ -24,10 +24,11 @@ export interface Article {
   excerpt: string
   content?: string
   category: string
-  tags: string[]
   date: string
   readTime: number
   slug: string
+  caseStudyLinks?: { title: string; url: string }[]
+  references?: string[]
 }
 
 // Sample data - replace with your actual content
@@ -80,17 +81,22 @@ const sampleArticles: Article[] = [
     title: "[Judul Artikel 1]",
     excerpt: "[Ringkasan artikel pertama Anda - 2-3 kalimat yang menarik pembaca]",
     category: "Tutorial",
-    tags: ["JavaScript", "Web Development", "Tutorial"],
     date: "15 Januari 2024",
     readTime: 5,
     slug: "artikel-1",
+    // Optional: add case studies and references
+    // caseStudyLinks: [
+    //   { title: "Studi Kasus: Implementasi React Hooks", url: "https://example.com" }
+    // ],
+    // references: [
+    //   "React Documentation. (2024). Hooks at a Glance. Retrieved from https://reactjs.org/docs/hooks-overview.html"
+    // ]
   },
   {
     id: "2",
     title: "[Judul Artikel 2]",
     excerpt: "[Ringkasan artikel kedua Anda - ceritakan tentang pengalaman atau pembelajaran]",
     category: "Pengalaman",
-    tags: ["Python", "Data Science", "Learning"],
     date: "10 Januari 2024",
     readTime: 8,
     slug: "artikel-2",
@@ -100,7 +106,6 @@ const sampleArticles: Article[] = [
     title: "[Judul Artikel 3]",
     excerpt: "[Ringkasan artikel ketiga Anda - bagikan tips atau insight menarik]",
     category: "Tips",
-    tags: ["Career", "Programming", "Tips"],
     date: "5 Januari 2024",
     readTime: 6,
     slug: "artikel-3",
