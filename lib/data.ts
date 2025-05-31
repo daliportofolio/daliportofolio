@@ -87,8 +87,8 @@ const sampleArticles: Article[] = [
     // Optional: add case studies and references
     caseStudyLinks: [
     { 
-      title: "Jiji. (2024, August 6). Kadokawa confirms data leak of 254,000 people due to cyberattack. The Japan Times. ",
-      url: "https://www.japantimes.co.jp/business/2024/08/06/companies/kadokawa-cyberattack-data-leak/The Japan Times"
+      title: "Sistem Informasi BINUS. (2025, 4 Maret). Kebocoran Data: Salah Rakyat? Sistem Informasi BINUS. ",
+      url: "https://sis.binus.ac.id/2025/03/04/kebocoran-data-salah-rakyat/"
     },
 
      {
@@ -97,18 +97,13 @@ const sampleArticles: Article[] = [
     },
 
     {
-      title: "Gatlan, S. (2025, May 29). Data broker LexisNexis discloses data breach affecting 364,000 people. BleepingComputer. ",
-      url: "https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/BleepingComputer"
+      title: "Asih, R. W. (2023, 30 November). Kronologi 204 Juta Data KPU Bocor, Hacker Masuk dengan Akun Admin. Bisnis.com.",
+      url: "https://kabar24.bisnis.com/read/20231130/15/1719604/kronologi-204-juta-data-kpu-bocor-hacker-masuk-dengan-akun-admin"
     },
 
     {
-      title: "Reuters. (2025, May 21). M&S says cyber attack was result of human error, declines to comment on ransom. Reuters. ",
-      url: "https://www.reuters.com/business/retail-consumer/ms-says-cyber-attack-was-result-human-error-declines-comment-ransom-2025-05-21/Reuters"
-    },
-       
-    {
-      title: "HIPAA Journal. (2025, May 15). Texas Health and Human Services Commission Affected by Insider Breach. HIPAA Journal. ",
-      url: "https://www.hipaajournal.com/texas-hhsc-insider-breach-maximus/HIPAA Journal"
+      title: "Strauss Borrelli PLLC. (2025, 5 Mei). Toyota Financial Services Data Breach Investigation. Strauss Borrelli PLLC.",
+      url: "https://straussborrelli.com/2025/05/05/toyota-financial-services-data-breach-investigation/"
     }
     
     ],
