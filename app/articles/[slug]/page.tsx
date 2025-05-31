@@ -89,38 +89,66 @@ export default async function ArticleDetailPage({ params }: ArticleDetailPagePro
             <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
               <div className="text-slate-600 dark:text-slate-300 leading-relaxed space-y-6 text-justify">
                 <p className="text-lg first-letter:text-4xl first-letter:font-bold first-letter:text-slate-800 dark:first-letter:text-slate-100 first-letter:mr-1 first-letter:float-left first-letter:leading-none">
-                  [Paragraf pembuka artikel - mulai dengan hook yang menarik untuk menarik perhatian pembaca. Tulis
-                  dengan gaya bercerita yang mengalir natural seperti sedang berbagi pengalaman.]
+                  Belakangan ini ramai dibicarakan soal pemindaian retina mata yang dibayar ratusan ribu rupiah.
+                  Buat sebagian orang, hal ini mungkin terasa biasa saja “cuma scan mata, apa sih bahayanya?” Tapi, tahu nggak sih kalau retina mata itu menyimpan data biometrik yang sangat pribadi dan sensitif?
+                  Kalau sampai data ini bocor atau disalahgunakan, masalahnya bisa jadi jauh lebih besar dari yang kita kira.
                 </p>
 
                 <p>
-                  [Lanjutkan cerita dengan pengalaman pribadi atau observasi yang relevan. Hindari penggunaan subjudul
-                  dan buat alur yang mengalir seperti bercerita kepada teman.]
+                  Di dunia yang makin digital, kita sering berpikir ancaman terbesar datang dari hacker jagoan atau virus canggih.
+                  Padahal kenyataannya, penyebab kebocoran data yang paling sering justru berasal dari kita sendiri.
+                  Yup, human error alias kesalahan manusia sering jadi pintu masuk utama terjadinya kebocoran data baik itu di level individu, perusahaan, bahkan pemerintahan.
                 </p>
 
                 <p>
-                  [Bagikan insight atau pembelajaran yang didapat. Gunakan bahasa yang conversational dan personal,
-                  seolah-olah sedang berbagi cerita di kafe.]
+                 Sebelum lanjut, yuk kita pahami dulu apa itu sebenarnya kebocoran data.
+                 Kebocoran data, atau data leakage, terjadi ketika data pribadi atau informasi penting tanpa sengaja terekspos ke publik atau diakses oleh pihak yang nggak berhak.
+                 Data yang bocor ini nggak cuma bikin repot, tapi juga bisa disalahgunakan, diperjualbelikan, atau dipakai untuk serangan kejahatan seperti phishing dan rekayasa sosial.
                 </p>
 
                 <p>
-                  [Ceritakan proses belajar, tantangan yang dihadapi, atau discovery moment yang menarik. Buat pembaca
-                  merasa terhubung dengan pengalaman yang dibagikan.]
+                  Masalahnya, banyak dari kita belum sadar bahwa kesalahan kecil—misalnya lupa logout akun, salah kirim email, atau asal klik link—bisa jadi celah besar buat kebocoran data.
+                  Bahkan perusahaan dengan sistem keamanan canggih pun tetap rentan kalau ada satu orang saja yang lengah.
                 </p>
 
                 <p>
-                  [Berikan contoh konkret atau analogi yang mudah dipahami. Tetap pertahankan tone personal dan
-                  authentic dalam penyampaian.]
+                  Ngomong-ngomong soal human error, ini sebenarnya apa sih? Singkatnya, human error adalah tindakan yang dilakukan manusia, baik disengaja atau tidak, yang membuat data penting jadi terekspos atau kurang terlindungi.
+                  Kesalahannya bisa kecil, seperti salah klik tombol, atau besar yang berakibat fatal terhadap keamanan data.
                 </p>
 
                 <p>
-                  [Bagikan tips praktis atau actionable insights yang bisa diterapkan pembaca. Sampaikan dengan cara
-                  yang humble dan tidak menggurui.]
+                  Fakta menariknya, menurut laporan Verizon Data Breach Investigations Report (DBIR) 2024, human error menyumbang sekitar 68% dari seluruh kasus kebocoran data.
+                  Dari angka itu, 28% di antaranya berasal dari kesalahan internal seperti konfigurasi sistem yang salah, kehilangan perangkat berisi data, atau pengiriman data ke orang yang salah.
+                  Sedangkan 40% lainnya terkait dengan serangan phishing dan rekayasa sosial, di mana korban jadi sasaran penipuan dan manipulasi psikologis.
+                  Rekayasa sosial ini sangat licik, karena memanfaatkan kelengahan dan kurangnya kesadaran manusia.
+                  Contohnya, email palsu yang terlihat sangat meyakinkan, sehingga kita tanpa sadar memberikan informasi penting secara sukarela.
                 </p>
 
                 <p>
-                  [Paragraf penutup yang merangkum pembelajaran dan memberikan refleksi personal. Akhiri dengan note
-                  yang warm dan encouraging untuk pembaca.]
+                  Kasus nyata pernah terjadi pada sebuah rumah sakit besar di Amerika Serikat.
+                  Seorang pegawai secara tidak sengaja mengunggah file yang berisi ribuan data pasien ke situs internal tanpa enkripsi, yang akhirnya bisa diakses publik karena pengaturan akses tidak dikonfigurasi dengan benar.
+                  Kebocoran ini tidak terjadi karena peretasan, melainkan karena kurangnya pelatihan dan pengawasan terhadap staf.
+                  Akibatnya, rumah sakit harus menghadapi denda besar dan kehilangan kepercayaan publik.
+                </p>
+
+                <p>
+                  Contoh lainnya terjadi di Indonesia, saat seorang pegawai instansi pemerintahan tidak sengaja membagikan dokumen sensitif ke grup WhatsApp yang salah.
+                  Dokumen tersebut tersebar dan viral di media sosial. Meski tidak ada niat jahat, kesalahan tersebut cukup fatal karena menyangkut data ribuan warga yang seharusnya dilindungi.
+                </p>
+
+                <p>
+                  Dari sini kita bisa belajar bahwa teknologi sehebat apapun tidak akan cukup jika tidak dibarengi dengan kesadaran dan kehati-hatian dari penggunanya.
+                  Solusi untuk meminimalisir human error bukan hanya tentang memasang software keamanan yang mahal, tapi justru dimulai dari diri kita sendiri. 
+                  Sederhana saja: lebih teliti sebelum mengirim file, hati-hati saat mengklik tautan, dan pastikan kita paham risiko dari setiap tindakan digital yang kita lakukan. 
+                  Pelatihan keamanan siber juga penting, tidak hanya untuk orang IT, tapi untuk semua pihak yang bersentuhan dengan data dari level staf sampai pimpinan.
+                  Dan yang paling penting, biasakan untuk selalu bertanya: “Apakah data ini aman? Apakah saya sudah melindunginya dengan benar?”
+                </p>
+
+                <p>
+                  Kesadaran adalah kunci utama.
+                  Kita semua adalah penjaga dari data kita masing-masing. 
+                  Jika setiap orang mulai peduli dan waspada dari hal-hal kecil, maka kebocoran besar pun bisa dicegah.
+                  Jadi, sebelum menunjuk hacker sebagai biang kerok, yuk kita cek lagi: jangan-jangan, celahnya justru datang dari kita sendiri.
                 </p>
               </div>
             </div>
@@ -153,7 +181,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailPagePro
               <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-700">
                 <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4 flex items-center">
                   <BookOpen size={18} className="mr-2" />
-                  Daftar Pustaka
+                  Sumber Informasi
                 </h3>
                 <div className="space-y-2">
                   {references.map((reference, index) => (
