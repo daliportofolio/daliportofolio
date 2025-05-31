@@ -89,22 +89,22 @@ const sampleArticles: Article[] = [
     { 
       title: "Jiji. (2024, August 6). Kadokawa confirms data leak of 254,000 people due to cyberattack. The Japan Times. ",
       url: "https://www.japantimes.co.jp/business/2024/08/06/companies/kadokawa-cyberattack-data-leak/The Japan Times"
-    }
+    },
 
      {
       title: "Fudo Security. (2025, January 2). 10 Lessons from 2024 Big Data Breaches. Fudo Security Blog. ",
       url: "https://fudosecurity.com/blog/2025/01/02/10-lessons-from-2024-big-data-breaches/"
-    }
+    },
 
     {
       title: "Gatlan, S. (2025, May 29). Data broker LexisNexis discloses data breach affecting 364,000 people. BleepingComputer. ",
       url: "https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/BleepingComputer"
-    }
+    },
 
     {
       title: "Reuters. (2025, May 21). M&S says cyber attack was result of human error, declines to comment on ransom. Reuters. ",
       url: "https://www.reuters.com/business/retail-consumer/ms-says-cyber-attack-was-result-human-error-declines-comment-ransom-2025-05-21/Reuters"
-    }
+    },
        
     {
       title: "HIPAA Journal. (2025, May 15). Texas Health and Human Services Commission Affected by Insider Breach. HIPAA Journal. ",
