@@ -1,7 +1,16 @@
+"use client"
+
 import { Github, Instagram } from "lucide-react"
 import Image from "next/image"
+import { useState } from "react"
 
 export default function Portfolio() {
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+
+  const toggleDropdown = (dropdown: string) => {
+    setActiveDropdown(activeDropdown === dropdown ? null : dropdown)
+  }
+
   return (
     <div className="min-h-screen bg-background">
       <nav className="border-b border-border">
@@ -26,11 +35,18 @@ export default function Portfolio() {
               >
                 Tentang
               </a>
-              <div className="relative group">
-                <span className="text-muted-foreground hover:text-foreground transition-colors text-xs sm:text-sm cursor-pointer">
+              <div className="relative">
+                <span
+                  className="text-muted-foreground hover:text-foreground transition-colors text-xs sm:text-sm cursor-pointer"
+                  onClick={() => toggleDropdown("karya")}
+                >
                   Karya
                 </span>
-                <div className="absolute top-full right-0 sm:left-0 mt-2 w-40 sm:w-48 bg-background border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div
+                  className={`absolute top-full right-0 sm:left-0 mt-2 w-40 sm:w-48 bg-background border border-border rounded-md shadow-lg transition-all duration-200 z-50 ${
+                    activeDropdown === "karya" ? "opacity-100 visible" : "opacity-0 invisible"
+                  } sm:group-hover:opacity-100 sm:group-hover:visible`}
+                >
                   <div className="py-2">
                     <a
                       href="/tulisan"
@@ -47,11 +63,18 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-              <div className="relative group">
-                <span className="text-muted-foreground hover:text-foreground transition-colors text-xs sm:text-sm cursor-pointer">
+              <div className="relative">
+                <span
+                  className="text-muted-foreground hover:text-foreground transition-colors text-xs sm:text-sm cursor-pointer"
+                  onClick={() => toggleDropdown("contact")}
+                >
                   Contact
                 </span>
-                <div className="absolute top-full right-0 sm:left-0 mt-2 w-40 sm:w-48 bg-background border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div
+                  className={`absolute top-full right-0 sm:left-0 mt-2 w-40 sm:w-48 bg-background border border-border rounded-md shadow-lg transition-all duration-200 z-50 ${
+                    activeDropdown === "contact" ? "opacity-100 visible" : "opacity-0 invisible"
+                  } sm:group-hover:opacity-100 sm:group-hover:visible`}
+                >
                   <div className="py-2">
                     <a
                       href="https://instagram.com/username"
@@ -79,25 +102,27 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      <section className="py-12 sm:py-16 md:py-24 lg:py-32 px-4 sm:px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-muted-foreground mb-4 text-xs sm:text-sm">Selamat datang.</p>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-foreground mb-4 sm:mb-6 text-balance leading-tight">
-            Saya membangun pengalaman digital yang thoughtful.
-          </h1>
-          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
-            Developer & penulis yang fokus pada aksesibilitas dan performa.
-          </p>
-        </div>
-      </section>
-
-      <footer className="py-6 sm:py-8 md:py-12 px-4 sm:px-6 border-t border-border">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs sm:text-sm text-muted-foreground">© 2024 Nama Anda</p>
+      <div className="min-h-screen" onClick={() => setActiveDropdown(null)}>
+        <section className="py-12 sm:py-16 md:py-24 lg:py-32 px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-muted-foreground mb-4 text-xs sm:text-sm">Selamat datang.</p>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-foreground mb-4 sm:mb-6 text-balance leading-tight">
+              Saya membangun pengalaman digital yang thoughtful.
+            </h1>
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+              Developer & penulis yang fokus pada aksesibilitas dan performa.
+            </p>
           </div>
-        </div>
-      </footer>
+        </section>
+
+        <footer className="py-6 sm:py-8 md:py-12 px-4 sm:px-6 border-t border-border">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p className="text-xs sm:text-sm text-muted-foreground">© 2024 Nama Anda</p>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
   )
 }
